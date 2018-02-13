@@ -1,0 +1,49 @@
+Более детальная информация на странице автора:
+https://github.com/AlanChatham/UnoJoy
+
+Инструкция по добавлению осей и кнопок будет добавлена позже.
+
+
+Инструкция по загрузке:
+
+1. Загрузить UnoJoy\SimChair mkII Arduino firmware\SimChair mkII.ino в плату Arduino обычным способом.
+2. Перевести Arduino в DFU mode (см. entering DFU mode.jpg)
+3. Запустить TurnIntoAJoystick.bat
+4. Перезагрузить Arduino
+5. В списке игровых устройств должен появиться Simchair mark II
+
+Инструкция по калибровке органов управления:
+
+1. Наклейте магнит на держатель на двусторонний скотч примерно так, как показано на фотографиях.
+2. Наклейте ss495a на ее раму на скотч, руководствуясь фотографиями
+3. Изменяя взаимное расположение магнита и ss495a (обычно достаточно немного отрегулировать положение 
+рамы ss495a) добейтесь соответствия полного механического хода рычага движению перекрестья индикатора 
+положения осей от края до края в свойствах игровых устройств windows.
+4. Добившись удовлетворяющих вас результатов, удалите скотч и наклейте магнит и ss495a на циакрин.
+5. Приятных полетов!
+
+------------------------------------------------------------------------------------------------------
+
+More information on UnoJoy author's page:
+https://github.com/AlanChatham/UnoJoy
+
+Manual on how to add more axes and buttons will be posted a bit later.
+
+Firmware flashing manual:
+
+1. Flash UnoJoy\SimChair mkII Arduino firmware\SimChair mkII.ino to your arduino board in usual way.
+2. Switch Arduino to DFU mode (see entering DFU mode.jpg for details)
+3. Run TurnIntoAJoystick.bat
+4. Reboot Arduino
+5. Simchair mark II device should appear in windows game devices
+
+Controls calibration manual:
+
+1. Glue the magnet on its holder using 2-sided tape, as shown on the pictures.
+2. Glue ss495a on its frame using 2-sided tape as well (see pictures).
+3. Open windows game controller properties window. You should move the lever you are calibrating and 
+adjust ss495a and magnet relative positions, until the lever's full mechanical travel will match 
+a full travel of an axis position cross indicator in game controller properties.
+4. When you are satisfied with step 3, remove 2-sided tape and glue magnet and ss495a to their frames 
+with cyano acrylate.
+5. Enjoy flying!
