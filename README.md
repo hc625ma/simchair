@@ -1,4 +1,7 @@
 # simchair
+
+WARNING! THIS DOESN'T WORK WITH THE CURRENT VERSION OF SIMCHAIR, PLEASE USE simchair_i2c REPO INSTEAD
+
 This is a modified UnoJoy software (https://github.com/AlanChatham) for the simchair project. It supports 6 axes (3x10 bit axes, 3x8 bit), fast filtering, stick calibration. This is intended to be used with Arduino UNO boards, note that you will need an atmega 16u2 on USB for it to work (original, or exact clones of original arduino will do, but CH340 ones wont).
 
 How to use UnoJoy software:
